@@ -112,20 +112,6 @@
 
 <section class="section">
   <div class="container is-max-desktop">
-    <h2 class="title is-centered has-text-centered">Motivation</h2>
-    <br>
-    <figure>
-      <img src="./static/images/motivation.jpg" alt="Motivation">
-    </figure>
-    <br>
-    <div class="content has-text-justified">
-      (a) Existing video diffusion models operate at full resolution, spending a lot of computation on very noisy latents. (b) Our method harnesses the flexibility of flow matching (<a href="https://openreview.net/forum?id=PqvMRDCJT9t">Lipman et al., 2023</a>; <a href="https://openreview.net/forum?id=XVjTT1nw5z">Liu et al., 2023</a>; <a href="https://openreview.net/forum?id=li7qeBbCR1t">Albergo & Vanden-Eijnden, 2023</a>) to interpolate between latents of different resolutions and noise levels, allowing simultaneous generation and decompression of visual content with better computational efficiency. The entire framework is end-to-end optimized with a single DiT (<a href="http://openaccess.thecvf.com/content/ICCV2023/html/Peebles_Scalable_Diffusion_Models_with_Transformers_ICCV_2023_paper.html">Peebles & Xie, 2023</a>), generating high-quality 10-second videos at 768p resolution and 24 FPS within 20.7k A100 GPU training hours.
-    </div>
-  </div>
-</section>
-
-<section class="section">
-  <div class="container is-max-desktop">
     <h2 class="title is-centered has-text-centered">Qualitative Results</h2>
     <h3 class="is-centered has-text-centered is-size-5">Text-to-Video Generation (1280x768, 10s, 24fps)</h3>
     <div class="results-carousel">
